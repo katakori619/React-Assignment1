@@ -78,7 +78,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className={isLayerVisible ?'greatlayer fixed top-0 left-0 w-full h-full flex justify-center items-center' :'greatlayer fixed top-0 left-0 w-full h-full justify-center items-center hidden'} onClick={hideLayer}>
-        <img src={imgSrc} alt="" className='w-2/5'/>
+        <img src={imgSrc} alt="" className='w-full sm:w-2/5'/>
       </div>
     </>
   )
