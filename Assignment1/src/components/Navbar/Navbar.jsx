@@ -8,10 +8,10 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className='py-9'>
+      <nav className='p-3 lg:py-9 fixed w-full mt-0'>
         <div className="parent ps-24 flex justify-between flex-wrap lg:flex-nowrap">
           <div className="home">
-            <a href="" className='text-3xl font-bold text-white'>START FRAMEWORK</a>
+            <a href="" className='text-xl md:text-3xl font-bold text-white'>START FRAMEWORK</a>
           </div>
           <button className='lg:hidden text-black text-3xl border rounded-md py-1 px-4 border-black mx-24' onClick={toggleMenu}>
             ☰
