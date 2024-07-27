@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Portfolio from './components/Portfolio/Portfolio'
+import NotFound from './components/NotFound/NotFound'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,8 @@ function App() {
       {/* <Home/> */}
       {/* <About/> */}
       {/* <Contact/> */}
-      <Portfolio/>
+      {/* <Portfolio/> */}
+      <NotFound/>
       <Footer/>
     </>
   )
