@@ -12,23 +12,53 @@ export default function Portfolio() {
             <div className="line"></div>
           </div>
           <div className="photos flex flex-wrap justify-center">
-            <div className="w-full sm:w-1/2 lg:w-1/3  rounded-md p-5">
-              <img src="https://routeegy.github.io/startFramework/assets/images/poert1.png" className='w-full rounded-md' alt="" />
+            <div className="w-full sm:w-1/2 lg:w-1/3 rounded-md p-5">
+              <div className="subparent relative overflow-hidden">
+                <img src="https://routeegy.github.io/startFramework/assets/images/poert1.png" className='w-full cursor-pointer rounded-md' alt="" />
+                <div className="layer rounded-md">
+                  <i className='text-white fa-solid fa-plus fa-6x'></i>
+                </div>
+              </div>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/3  rounded-md p-5">
-              <img src="https://routeegy.github.io/startFramework/assets/images/port2.png" className='w-full rounded-md' alt="" />
+              <div className="subparent relative overflow-hidden">
+              <img src="https://routeegy.github.io/startFramework/assets/images/port2.png" className='w-full cursor-pointer rounded-md' alt="" />
+                <div className="layer rounded-md">
+                  <i className='text-white fa-solid fa-plus fa-6x'></i>
+                </div>
+              </div>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/3  rounded-md p-5">
-              <img src="https://routeegy.github.io/startFramework/assets/images/port3.png" className='w-full rounded-md' alt="" />
+              <div className="subparent relative overflow-hidden">
+                <img src="https://routeegy.github.io/startFramework/assets/images/port3.png" className='w-full cursor-pointer rounded-md relative' alt="" />
+                <div className="layer rounded-md">
+                  <i className='text-white fa-solid fa-plus fa-6x'></i>
+                </div>
+              </div>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/3  rounded-md p-5">
-              <img src="https://routeegy.github.io/startFramework/assets/images/poert1.png" className='w-full rounded-md' alt="" />
+              <div className="subparent relative overflow-hidden">
+                <img src="https://routeegy.github.io/startFramework/assets/images/poert1.png" className='w-full cursor-pointer rounded-md relative' alt="" />
+                <div className="layer rounded-md">
+                  <i className='text-white fa-solid fa-plus fa-6x'></i>
+                </div>
+              </div>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/3  rounded-md p-5">
-              <img src="https://routeegy.github.io/startFramework/assets/images/port2.png" className='w-full rounded-md' alt="" />
+              <div className="subparent overflow-hidden relative">
+                <img src="https://routeegy.github.io/startFramework/assets/images/port2.png" className='w-full cursor-pointer rounded-md relative' alt="" />
+                <div className="layer rounded-md">
+                  <i className='text-white fa-solid fa-plus fa-6x'></i>
+                </div>
+              </div>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/3  rounded-md p-5">
-              <img src="https://routeegy.github.io/startFramework/assets/images/port3.png" className='w-full rounded-md' alt="" />
+              <div className="subparent relative overflow-hidden">
+                <img src="https://routeegy.github.io/startFramework/assets/images/port3.png" className='w-full cursor-pointer rounded-md relative' alt="" />
+                <div className="layer rounded-md">
+                  <i className='text-white fa-solid fa-plus fa-6x'></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>

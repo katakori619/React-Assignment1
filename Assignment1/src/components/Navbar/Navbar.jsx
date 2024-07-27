@@ -8,7 +8,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className='p-3 lg:py-9 fixed w-full mt-0'>
+      <nav className='p-3 z-50 lg:py-9 fixed w-full mt-0'>
         <div className="parent ps-24 flex justify-between flex-wrap lg:flex-nowrap">
           <div className="home">
             <a href="" className='text-xl md:text-3xl font-bold text-white'>START FRAMEWORK</a>
