@@ -55,3 +55,7 @@ footer .second{
 .parent4 .photos .layer:hover{
     opacity: 1;
 }
+.greatlayer{
+    z-index: 999;
+    background-color: rgba(13, 110, 253, 0.25);
+}
