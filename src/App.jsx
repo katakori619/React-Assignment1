@@ -10,10 +10,10 @@ import Contact from './components/Contact/Contact'
 import Portfolio from './components/Portfolio/Portfolio'
 import Layout from './components/Layout/Layout'
 import NotFound from './components/NotFound/NotFound'
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import {createBrowserRouter, RouterProvider , createHashRouter} from 'react-router-dom'
 function App() {
   const [count, setCount] = useState(0)
-  let routers = createBrowserRouter([
+  let routers = createHashRouter([
     {path:'' , element: <Layout/>  , children: [
       {index: true , element: <Home/>},
       {path: 'About' , element: <About/>},
