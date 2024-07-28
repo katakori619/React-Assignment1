@@ -24,13 +24,6 @@ function App() {
 ])
   return (
     <>
-      {/* <Navbar/> */}
-      {/* <Home/> */}
-      {/* <About/> */}
-      {/* <Contact/> */}
-      {/* <Portfolio/> */}
-      {/* <NotFound/>
-      <Footer/> */}
       <RouterProvider router={routers}></RouterProvider>
     </>
   )
