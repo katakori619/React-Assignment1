@@ -1,6 +1,9 @@
-import React from 'react'
+import React , { useEffect } from 'react'
 
 export default function NotFound() {
+  useEffect(() => {
+    document.title = '404 not found';
+  }, []);
   return (
     <>
         <div className="parent5 flex justify-center">

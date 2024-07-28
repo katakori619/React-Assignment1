@@ -1,6 +1,9 @@
-import React from 'react'
+import React , { useEffect } from 'react'
 
 export default function Contact() {
+    useEffect(() => {
+        document.title = 'Contact';
+      }, []);
   return (
     <>
         <div className="parent3 flex justify-center items-center">

@@ -1,6 +1,9 @@
-import React , { useState } from 'react'
+import React , { useState , useEffect } from 'react'
 
 export default function Portfolio() {
+  useEffect(() => {
+    document.title = 'Portfolio';
+  }, []);
 
   const [imgSrc, setImgSrc] = useState('');
   const [isLayerVisible, setIsLayerVisible] = useState(false);

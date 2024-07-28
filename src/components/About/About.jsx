@@ -1,6 +1,9 @@
-import React from 'react'
+import React , { useEffect } from 'react'
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'About';
+  }, []);
   return (
     <>
       <div className="about flex justify-center items-center py-24 sm:py-40 lg:py-52 text-white">

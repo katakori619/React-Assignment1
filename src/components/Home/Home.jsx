@@ -1,6 +1,9 @@
-import React from 'react'
+import React , { useEffect } from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 export default function Home() {
+  useEffect(() => {
+    document.title = 'Home';
+  }, []);
   return (
     <>
       <div className="parent2 text-white flex justify-center items-center py-16">
